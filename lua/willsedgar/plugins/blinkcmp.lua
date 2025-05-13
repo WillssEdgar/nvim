@@ -17,6 +17,14 @@ return {
 			nerd_font_variant = 'mono'
 		},
 		completion = { documentation = { auto_show = false } },
-		fuzzy = { implementation = "lua" }
+		fuzzy = {
+			sorts = {
+				'exact',
+				-- defaults
+				'score',
+				'sort_text',
+			},
+			implementation = "lua",
+		}
 	},
 }
