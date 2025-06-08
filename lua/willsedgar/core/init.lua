@@ -1,6 +1,5 @@
 require("willsedgar.core.options")
 require("willsedgar.core.keymaps")
-require("willsedgar.core.utils")
 vim.api.nvim_create_autocmd("ColorScheme", {
 	pattern = "*",
 	callback = function()
