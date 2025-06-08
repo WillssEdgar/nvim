@@ -18,13 +18,13 @@ return {
 		require("mason-lspconfig").setup({
 			ensure_installed = {
 				"lua_ls",
-				"html",
-				"bashls",
-				"marksman",
-				"gopls",
-				"rust_analyzer",
-				"jsonls",
-				"ast_grep",
+				-- "html",
+				-- "bashls",
+				-- "marksman",
+				-- "gopls",
+				-- "rust_analyzer",
+				-- "jsonls",
+				-- "ast_grep",
 			},
 			handlers = {
 				["lua_ls"] = function()

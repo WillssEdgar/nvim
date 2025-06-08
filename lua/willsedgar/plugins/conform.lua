@@ -29,6 +29,7 @@ return {
 			"lua",
 			"rust",
 			"go",
+			"python"
 		}
 
 		local group = vim.api.nvim_create_augroup("ConformFormatOnSave", { clear = true })

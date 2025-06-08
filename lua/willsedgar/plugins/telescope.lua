@@ -44,22 +44,9 @@ return {
 			builtin.live_grep(ivy)
 		end, { desc = "Find string" })
 
-		keymap.set("n", "<leader>fi", function()
-			builtin.grep_string(ivy)
-		end, { desc = "Find string under cursor" })
-
-		keymap.set("n", "<leader>fb", function()
-			builtin.buffers(ivy)
-		end, { desc = "Fuzzy Find Buffers" })
-
 		keymap.set("n", "<leader>fm", function()
 			builtin.marks()
 		end, { desc = "Fuzzy Find Marks" })
 
-		keymap.set(
-			"n",
-			"<leader>fu",
-			": Telescope buffers c=+modified<CR>",
-			{ desc = "Fuzzy Find Unsaved Buffers" })
 	end,
 }
